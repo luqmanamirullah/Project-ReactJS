@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "My First Post",
+      "datetime": "December 26, 2022 14:09:50",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, voluptas atque nihil maxime sapiente alias. Harum vel cum eius, quidem repudiandae voluptas minus quas, a optio distinctio aspernatur enim sunt eligendi sapiente temporibus laborum eveniet officiis! Fugit, expedita! Exercitationem dolorem quibusdam repellendus delectus voluptate ducimus, obcaecati culpa aliquid eius fugiat!"
+    },
+    {
+      "id": 2,
+      "title": "My Second Post",
+      "datetime": "December 27, 2022 21:19:08",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, voluptas atque nihil maxime sapiente alias. Harum vel cum eius, quidem repudiandae voluptas minus quas, a optio distinctio aspernatur enim sunt eligendi sapiente temporibus laborum eveniet officiis! Fugit, expedita! Exercitationem dolorem quibusdam repellendus delectus voluptate ducimus, obcaecati culpa aliquid eius fugiat!"
+    },
+    {
+      "id": 3,
+      "title": "My Third Post",
+      "datetime": "December 28, 2022 08:11:20",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, voluptas atque nihil maxime sapiente alias. Harum vel cum eius, quidem repudiandae voluptas minus quas, a optio distinctio aspernatur enim sunt eligendi sapiente temporibus laborum eveniet officiis! Fugit, expedita! Exercitationem dolorem quibusdam repellendus delectus voluptate ducimus, obcaecati culpa aliquid eius fugiat!"
+    },
+    {
+      "id": 4,
+      "title": "My Fourth Post ",
+      "datetime": "January 01, 2023 7:08:49 PM",
+      "content": "    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur illo eos aut obcaecati. Voluptates ipsa esse dolor quas delectus quibusdam vel aut. Facere minima voluptate repudiandae dolor expedita tempora aut voluptatem numquam pariatur assumenda corrupti odio placeat eius, blanditiis beatae est cumque quisquam, aliquid ex corporis soluta reprehenderit! Facilis at officia ullam! Ea, vel iure! Id, cumque sunt fugiat nisi eos nihil nulla eligendi facilis earum? Culpa, ad similique nam quos animi mollitia aliquid eos repudiandae, eum eligendi doloribus rem illo! Ducimus autem aut recusandae libero optio, iste neque corporis temporibus at distinctio molestiae alias fugiat velit obcaecati reprehenderit iure?\n"
+    },
+    {
+      "id": 5,
+      "title": "My Five Post",
+      "datetime": "January 01, 2023 3:18:23 PM",
+      "content": "Hello 2023 is my first 2023 blog create with react js, I lost my dream in 2022 and I hope in this year it's gonna be better than prev. Aamiin"
+    }
+  ]
+}
