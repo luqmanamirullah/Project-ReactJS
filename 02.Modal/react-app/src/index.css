@@ -1,0 +1,269 @@
+body {
+  margin: 0;
+  font-family: 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(48, 48, 48, 0.831);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container, .overlay {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay{
+  background-color: rgba(49, 49, 49, 0.8);
+}
+
+.modal-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 30vw;
+  min-width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+} 
+
+
+.modal-content .header h3 {
+  color: black;
+}
+
+.modal-header{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.modal-header svg{
+  position: absolute;
+  right: -150%;
+  cursor: pointer;
+}
+
+
+.btn-sure{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 20%;
+  color: white;
+  padding: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 20px;
+}
+
+main{
+  width: 50%;
+  max-width: 500px;
+  min-width: 200px;
+  height: 60%;
+  max-height: 650px;
+  min-height: 300px;
+  background-color: #fff;
+  box-shadow: -5px -10px 40px 5px rgba(0, 0, 0, 0.281) inset, 
+              5px 10px 50px 5px rgba(0, 0, 0, 0.281) ;
+  border-radius: 30px;
+  padding: 10px 30px;
+  transition: all .3s ease-out;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.header{
+  position: fixed;
+  font-weight: 600;
+}
+
+.todo-section{
+  width: 100%;
+  height: 70%;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-ul{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.todo-li{
+  width: 90%;
+  height: 20px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .9rem;
+}
+
+.checkbox-container input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 15px;
+  user-select: none;
+}
+
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  background-color: #ccc;
+  border-radius: 100%;
+  transition-duration: .15s;
+}
+
+.checkbox-container input:checked ~ .checkmark{
+  background-color: lime;
+}
+
+.checkmark:after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked ~ .checkmark:after{
+  display: block;
+}
+
+.checkbox-container .checkmark:after{
+  left: 0.35em;
+  top: 0.15em;
+  width: 0.15em;
+  height: 0.4em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg);
+}
+
+
+.btn-clear {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -15%;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 8%;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+  background: linear-gradient(0deg, rgb(208, 54, 67) 0%, rgb(254, 116, 146) 100%);
+  color: white;
+  box-shadow: rgba(208, 54, 67, 0.776) 0 4px 15px ;
+  transition: all 600ms cubic-bezier(.23, 1, 0.32, 1);
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: rgba(208, 54, 67, 0.776) 0 8px 15px ;
+}
+
+.btn-clear:active{
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(0.8) translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) translateY(-1);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleDown {
+  0% {
+    transform: scale(1) translateY(-1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8) translateY(1000);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
