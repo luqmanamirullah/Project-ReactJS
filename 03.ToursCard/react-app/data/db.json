@@ -1,0 +1,44 @@
+{
+    "tours" : [
+        {
+            "id": 1,
+                    "destination" : "Bandung, Indonesian",
+            "title" : "Best of Bandung  Indonesian in 3 Days Tour",
+            "price" : 99.14,
+            "desc" : "Bandung tourism, tourism with so many and beautiful choices, and also a tourist destination both locally and abroad. with us a tour with an experienced guide and a reliable driver makes your journey and friends and family satisfied and happy. also leaves an impression and interesting travel experience",
+            "img" : "https://images.unsplash.com/photo-1611638281871-1063d3e76e1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=833&q=80"
+        },
+        {
+            "id": 2,
+            "destination" : "Jakarta, Indonesian",
+            "title" : "Full-Day Private Jakarta City Tour (Explore Highlight places)",
+            "price" : 100,
+            "desc" : "Enjoy the perfect introduction to Jakarta history and museums—without the stress of trying to piece together public transport—on this private guided full-day tour. See phinisi wooden sailing ships lined up in Sunda Kelapa (Jakarta Old Port); visit the 19th-century National Museum and the National Monument (Monas); explore Glodok (Jakarta Chinatown) and Jakarta Old Town; and see a Confucian temple, a shadow puppet museum, and more.",
+            "img" : "https://images.unsplash.com/photo-1617687611017-48db8d42fd8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "id": 3,
+            "destination" : "Bali, Indonesian",
+            "title" : "The Wonderland Bali Tours in 1 Week",
+            "price" : 114,
+            "desc" : "Lets explore beautiful of bali island, visit more than 10 tourist attractions. Start in Ubud Bali is the most favorite place in Bali for tourist and continue to best destination in Bali, then we provide rest place hotel 4.5 star, breakfast. lunch, and dinner in different place in 1 week.",
+            "img" : "https://images.unsplash.com/photo-1604999333679-b86d54738315?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+        },
+        {
+            "id": 4,
+            "destination" : "Lombok, Indonesian",
+            "title" : "Authentic Lombok Tours in 3 days",
+            "price" : 344.99,
+            "desc" : "Lombok is an Indonesian island east of Bali and west of Sumbawa, part of the Lesser Sunda Island chain. It's known for beaches and surfing spots, particularly at Kuta and Banko Banko (in south Lombok). The motor-vehicle-free Gili Islands (Gili Trawangan, Gili Air and Gili Meno), off Lomboks west coast, offer more beaches, reefs for diving and snorkeling, and a sea turtle hatchery.",
+            "img" : "http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcSKUOJuXTB1fhJ4JxyrzYkF3byUjKV2bNA0sguPD9dpswCqfDpxXYXLhLOLU6S2Lj85"
+        },
+        {
+            "id": 5,
+            "destination" : "Yogyakarta, Indonesian",
+            "title" : "Intresting Tour in Yogyakarta",
+            "price" : 55.98,
+            "desc" : "Yogyakarta, together with its twin city Surakarta (Solo), is the cradle of civilization on Java. This city was the seat of power that produced the magnificent temples of Borobudur and Prambanan in the 8th and 9th centuries and the new powerful Mataram kingdom of the 16th and 17th century.",
+            "img" : "https://images.unsplash.com/photo-1578469550956-0e16b69c6a3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1106&q=80"
+        }
+    ]
+}
