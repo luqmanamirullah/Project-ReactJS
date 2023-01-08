@@ -60,17 +60,6 @@ main{
   position: absolute;
 }
 
-/* .title:after{
-  z-index: -1;
-  height: 100%;
-  top: 0;
-  left: 0;
-  margin-top: 17px;
-  margin-left: 15%;
-  background-color: white;
-  animation: sideIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
-  animation-delay: 1s;
-}  */
 
 .title .wrapper{
   position: relative;
@@ -157,16 +146,6 @@ main{
   font-size: 1.2rem;
 }
 
-/* .header-section h4:before{
-  z-index: -1;
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%;
-  height: 10px;
-  margin-top: 10px;
-} */
 
 .header-section h4{
   position: relative;
@@ -176,7 +155,6 @@ main{
 }
 .comment-section {
   width: 100%;
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   align-items: center;

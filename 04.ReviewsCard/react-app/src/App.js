@@ -14,7 +14,7 @@ function App() {
       setReviews(data);
     }, [data])
     
-  const ShowReviews =  React.lazy(() => import('./component/Reviews'));
+  const ShowReviews =  React.lazy(() => import('./component/Reviews'));  // this is for solve error api fetch
   return (
     <div className="App">
       <main>
