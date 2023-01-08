@@ -1,0 +1,35 @@
+{
+    "faqs" : [
+        {
+            "id" : 1,
+            "question" : "Is it completely free?",
+            "answer" : "Yeah, to learn programming languages in conary you can access it for Free, but we also provide paid learning features with lots of features that will help you more easily in the learning process",
+            "readmore" : true
+        },
+        {
+            "id" : 2,
+            "question" : "is there a parental control feature for studying in conary?",
+            "answer" : "yes there is, we will provide a special account for parents who want to see their child's progress in the learning process at conary",
+            "readmore" : true
+        },
+        {
+            "id" : 3,
+            "question" : "Are there any special requirements for learning programming languages at Conary?",
+            "answer" : "there are no special requirements to study with us, just prepare a smartphone, or laptop or maybe a PC then schedule your learning",
+            "readmore" : false
+        },
+        {
+            "id" : 4,
+            "question" : "How do i change my account email?",
+            "answer" : "You must first log in to your account then enter the settings page and select profile settings then change your email",
+            "readmore" : true
+        },
+        {
+            "id" : 5,
+            "question" : "I seem to have forgotten my account password, and I can't log in, how do I fix it??",
+            "answer" : "enter the login page then in the password input section there is a link that you can access if you forget your password, and follow the directions that will check that it is really your account",
+            "readmore" : true
+        }
+
+    ]
+}
